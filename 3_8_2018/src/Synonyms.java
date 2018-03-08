@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Synonyms {
-    Map<String, String> synonyms = new HashMap<>();
+    private Map<String, String> synonyms = new HashMap<>();
 
     public Synonyms(){
         synonyms.put("Letter", "Character");
